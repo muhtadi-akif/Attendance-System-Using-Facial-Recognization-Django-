@@ -1,0 +1,14 @@
+# ml files are ignored through git #
+# all files inside ml folders
+# Except harcascade files
+
+ml/dataset/*
+ml/recognizer/*
+ml/serializer/*
+ml/uploadedImages/*
+/.idea
+/env/*
+faceRecog/__pycache__/
+records/__pycache__/
+records/migrations/__pycache__/
+

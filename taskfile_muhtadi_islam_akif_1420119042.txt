@@ -1,0 +1,45 @@
+Muhtadi Islam Akif, NSUID: 1420119042
+email: 37185akif@gmail.com
+Project Description - An online attendance system with face detection. (An optional stuff for NSU RDS system with face detection rather
+than RFID)
+Tasks Done by me
+-schema creation(schema picture added)
+-entire application is operated by me
+-functions I added described in commits and below commit description
+-latest HTML CSS and front end
+-use of open cv to detect and recognize face
+
+Few commits are described here and most of the commits are in detailed with file pushed to bitbucket
+
+commit: model classes are added.
+we added model class because it will migrate to create the Database.
+
+commit: all functions are added.
+index: it creates a session for student, teacher and admin 
+logout: it deletes the session
+adminmain: it can add students, teachers and so on.
+adminstudent: form to add student
+adminteacher: form to add teacher
+admindepartment: form to add department
+admincourses: form to add courses
+adminpost: form to add post
+adminroom: form to add room information
+adminclassinfo: form to add class informatiom
+admingrade: form to add class grade
+admintiming: form to add class timing
+teacheraddcourse: teacher will select class information
+studentaddcourse: student will add courses 
+studentlist: list of all students
+teacherlist: list of all teacher
+takeattandance: course list of teacher
+coursestudentlist: student in that course
+attandancelist: list of all present students
+enrolledcourses: the courses that are selected
+teacheraddcourse_two: teacher will select course
+student: student dashboard
+teacher: teacher dashboard
+create_dataset: it will create dataset of student
+trainer: it will train the dataset
+detect: it will detect and recognize students
+submitattandance: it will add attandance
+

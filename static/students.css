@@ -1,0 +1,85 @@
+nav{
+    font-size: 15px; 
+    background-color: #87ceeb;
+    font-family: monospace;
+    margin: 0;
+    line-height: 2;
+    box-shadow: 0.5px 0.5px 6px grey;
+
+}
+
+body{margin: auto;}
+
+h2{
+    margin: 0px;
+    margin-left: 40px;
+}
+
+#diveone{
+    
+    float: left;
+    width: 50%;
+    height: 450px;
+    background-color: #E0EFDC;
+    grid-column: 1/auto;
+    text-align: center;
+    font-size: 17px;
+    box-shadow: .5px .5px 3px grey;
+
+}
+
+#divtwo{
+    
+    float: right;
+    width: 50%;
+    height: 450px;
+    background-color:#F5E9C7;
+    grid-column: 2/auto; 
+    font-size: 17px;
+    box-shadow: .5px .5px 3px grey;
+}
+
+#pdivtwo{
+   padding-left: 70px;
+}
+
+#portalheader{
+    padding-left: 40px
+}
+#pthingstofollow{
+    text-align: center;
+    
+}
+
+#divmain{
+    margin: 0 40px;
+}
+
+#webcam{
+    margin-top: 10px;
+    background-color: #FF5733;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    grid-column: 1/auto;
+    margin-right: 10px;
+}
+
+#train{
+    
+    margin-top: 10px;
+    background-color: #FF5733;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    grid-column: 2/auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#dataset{
+    margin-top: 10px;
+    background-color: #FF5733;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    grid-column: 3/auto;
+    margin-left: 10px;
+}

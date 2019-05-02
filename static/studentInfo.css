@@ -1,0 +1,43 @@
+body{
+    
+    margin: auto;
+}
+
+nav{
+    font-size: 15px; 
+    background-color: #87ceeb;
+    font-family: monospace;
+    margin: 0px;
+    line-height: 2;
+    border-radius: 1px;
+    box-shadow: 0.3px 0.3px 5px grey;
+}
+
+
+
+#wholediv{
+    margin: 0 40px;
+    display: grid;
+    
+}
+
+#firstcolum{
+    height: 500px;
+    grid-column: 1/auto;
+    display: grid;
+
+}
+
+#secondcolum{
+    height: 500px;
+    grid-column: 2/auto;
+    display: grid;
+    background-color: #F8EEEC;
+
+}
+
+#thirdcolum{
+    height: 500px;
+    grid-column: 3/auto;
+    display: grid;
+}

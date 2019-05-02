@@ -1,0 +1,70 @@
+nav{
+    font-size: 15px; 
+    background-color: #87ceeb;
+    font-family: monospace;
+    margin: 0px;
+    line-height: 2;
+    box-shadow: 0.5px 0.5px 6px grey;
+
+}
+
+h2{
+    margin: 0px;
+    margin-left: 40px;
+    
+}
+
+body{
+    margin: auto;
+}
+
+
+#diveone{
+    
+    float: left;
+    width: 50%;
+    height: 450px;
+    background-color: #B3FAA0;
+    grid-column: 1/auto;
+    text-align: center;
+    font-size: 17px;
+    box-shadow: .5px .5px 3px grey;    
+}
+
+#divtwo{
+    
+    float: right;
+    width: 50%;
+    height: 450px;
+    background-color:#FAD7A0;
+    grid-column: 2/auto; 
+    font-size: 17px;
+    box-shadow: .5px .5px 3px grey;
+}
+
+#maindiv
+{
+
+    margin: 0 40px;
+    
+    
+}
+
+button{
+    margin-top: 10px;
+    background-color: #FF5733;
+    padding: 15px 15px 15px 15px;
+    color: white;
+}
+
+#pdivtwo{
+   padding-left: 70px;
+}
+
+#portalheader{
+    padding-left: 40px
+}
+#pthingstofollow{
+    text-align: center;
+    
+}
